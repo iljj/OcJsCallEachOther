@@ -43,13 +43,14 @@ cc.Class({
     record: function () {
         if (cc.sys.isNative && cc.sys.os === cc.sys.OS_IOS) {
         	if(!this.isRecording){
+        	    this.isRecording=true;
         	    cc.JsCallBackFromOC.addobs(this);
                 jsb.reflection.callStaticMethod('AudioRecorder', 'startRecord');
                 console.log('Start recording');
         	}
         	else
         	{
-        	    this.isRecording=false;
+        	    //this.isRecording=false;
           	    jsb.reflection.callStaticMethod('AudioRecorder', 'manualStop');
           	    console.log('Stoping recording');
             }
