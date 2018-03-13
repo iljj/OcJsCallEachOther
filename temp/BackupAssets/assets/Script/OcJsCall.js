@@ -40,7 +40,8 @@ cc.Class({
         }
     },
 		
-    record: function () {
+    record: function (event,customEventData) {
+        console.log("ljj Debug customEventData:"+customEventData);
         if (cc.sys.isNative && cc.sys.os === cc.sys.OS_IOS) {
         	if(!this.isRecording){
         	    this.isRecording=true;

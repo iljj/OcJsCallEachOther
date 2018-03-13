@@ -253,7 +253,8 @@
                 "__id__": 9
               },
               "component": "OcJsCall",
-              "handler": "record"
+              "handler": "record",
+              "customEventData": "\"hello\""
             }
           ],
           "_N$normalColor": {

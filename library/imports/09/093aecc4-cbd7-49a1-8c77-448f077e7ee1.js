@@ -2,7 +2,7 @@
 cc._RF.push(module, '093aezEy9dJoYx3RI8Hfn7h', 'OcJsCall');
 // Script/OcJsCall.js
 
-'use strict';
+"use strict";
 
 cc.Class({
     extends: cc.Component,
@@ -44,7 +44,8 @@ cc.Class({
         if (cc.sys.isNative && cc.sys.os == cc.sys.OS_IOS) {}
     },
 
-    record: function record() {
+    record: function record(event, customEventData) {
+        console.log("ljj Debug customEventData:" + customEventData);
         if (cc.sys.isNative && cc.sys.os === cc.sys.OS_IOS) {
             if (!this.isRecording) {
                 this.isRecording = true;

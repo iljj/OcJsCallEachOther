@@ -10,8 +10,8 @@
     "relativePath": "Script"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1520559478000,
-    "meta": 1520559478000,
+    "asset": 1520956429339,
+    "meta": 1520956429351,
     "relativePath": "Scene/helloworld.fire"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
@@ -35,8 +35,8 @@
     "relativePath": "Texture/HelloWorld.png"
   },
   "093aecc4-cbd7-49a1-8c77-448f077e7ee1": {
-    "asset": 1520874070293,
-    "meta": 1520874070358,
+    "asset": 1520956417103,
+    "meta": 1520956417169,
     "relativePath": "Script/OcJsCall.js"
   },
   "f8e6b000-5643-4b86-9080-aa680ce1f599": {

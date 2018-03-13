@@ -634,7 +634,7 @@
     },
     "component": "OcJsCall",
     "handler": "record",
-    "customEventData": ""
+    "customEventData": "\"hello\""
   },
   {
     "__type__": "cc.Node",

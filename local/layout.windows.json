@@ -104,8 +104,8 @@
       "main": false,
       "url": "packages://code-editor/panel/index.html",
       "windowType": "simple",
-      "x": 0,
-      "y": 23,
+      "x": 583,
+      "y": 58,
       "width": 1680,
       "height": 992,
       "layout": null,
@@ -118,8 +118,8 @@
   },
   "panels": {
     "code-editor": {
-      "x": 0,
-      "y": 23,
+      "x": 583,
+      "y": 58,
       "width": 1680,
       "height": 992
     },

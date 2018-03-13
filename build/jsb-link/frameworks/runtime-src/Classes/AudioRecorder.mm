@@ -13,7 +13,8 @@ static NSCondition  *syncCondition;
 +(void)startRecord{
     
     NSLog(@"Native OC code is Called");
-    
+    NSThread *current=[NSThread currentThread];
+    NSLog(@"startRecord thread info: %@",current);
     if (syncCondition ==NULL ) {
         syncCondition=[[NSCondition alloc] init];
     }
@@ -36,6 +37,9 @@ static NSCondition  *syncCondition;
         [syncCondition unlock];
         NSLog(@"unlocked");
     }
+    
+    NSThread *current=[NSThread currentThread];
+    NSLog(@"waitingDataProcessingThread info: %@",current);
     //real stop the audio record
     //[AudioRecorder stopRecorder];
     
